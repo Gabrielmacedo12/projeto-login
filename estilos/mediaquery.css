@@ -12,8 +12,8 @@ grnades telas: acima de 1200px
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
-        
     }
+
     body {
         background-image: linear-gradient(to top, #CFB6A2, #4C2B08 );
     }
@@ -27,6 +27,12 @@ grnades telas: acima de 1200px
         width: 70%;
         float: right;
     }
+    div#formulario > h2{
+       font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1em;
+    }
 }
 @media screen and (min-width: 992px) {
     section#login {
@@ -35,14 +41,20 @@ grnades telas: acima de 1200px
     section#login > div#imagem {
         width: 50%;
         height: 100%;
-        float: left;
+        float: right;
     }
     section#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     body {
         background-image: linear-gradient(to top, #CFB6A2, #4C2B08 );
     }
+    div#formulario > h2{
+        font-size: 2em;
+     }
+     div#formulario > p {
+         font-size: 1em;
+     }
 }
 
